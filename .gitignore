@@ -1,2 +1,13 @@
 archive
 node_modules
+ 	.travis.yml
+.jscsrc
+ 	.github
+ 	.idea
+.DS_Store
+ 	.editorconfig
+ 	.eslintrc.js
+ 	.gitattributes
+ 	.gitignore
+ 	README.md
+ 	.travis
