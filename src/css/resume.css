@@ -8,11 +8,21 @@ html{
 }
 header{
   margin-left:150px ;
-
+  font-family: alexa-std, sans-serif;
+}
+header div{
+  font-family: aladin, sans-serif;
+  font-size: 17px;
 }
 section{
   margin-left:300px ;
   margin-right:300px ;
+}
+section article dl dt {
+  font-family: alexa-std, sans-serif;
+}
+section article dl {
+  margin-left: ;
 }
 #photo{
   float: left;
@@ -31,4 +41,8 @@ section{
 footer {
   margin-top: 50px;
   margin-left: 200px;
+}
+.title{
+  font-family: amatic-sc, sans-serif;
+  font-size: 22px;
 }
