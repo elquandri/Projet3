@@ -1,6 +1,8 @@
 html, button,input,select, textarea{
   color:#444;
   background-color: #777;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 html{
   font-size: 1em ;
@@ -14,15 +16,18 @@ header div{
   font-family: aladin, sans-serif;
   font-size: 17px;
 }
-section{
+section dl {
   margin-left:300px ;
   margin-right:300px ;
 }
+
 section article dl dt {
   font-family: alexa-std, sans-serif;
+  font-size: 22px;
+  color:lightskyblue ;
 }
-section article dl {
-  margin-left: ;
+section article dl dd {
+  font-family: artifika, serif;
 }
 #photo{
   float: left;
@@ -43,6 +48,14 @@ footer {
   margin-left: 200px;
 }
 .title{
-  font-family: amatic-sc, sans-serif;
-  font-size: 22px;
+  font-family: alexa-std, sans-serif;
+  font-size: 24px;
+  margin-left:250px ;
+  margin-right:250px ;
+  color: lightblue;
+
 }
+a{
+  font-family: artifika, serif;
+}
+
