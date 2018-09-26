@@ -5,9 +5,15 @@
     margin-right: auto;
     float: none;
   }
-  #wrapper {
-    /*background: white;*/
+  #Wrapper {
+    background: #f77;
     width:100%;
+  }
+  #info{
+    display: initial;
+  }
+  #infoperso {
+    background-color:#f77; ;
   }
 }
 
@@ -19,26 +25,41 @@
     float: none;
   }
 
-  #wrapper {
-    /*background: red;*/
+  #Wrapper {
+    background: #7f7;
     width:100%; }
+  #info{
+    display: initial;
+  }
+  #infoperso {
+    background-color:#7f7; ;
+  }
 
 }
 
 @media only screen and (max-width: 480px) {
-  header img {
-    margin-left: auto;
-    margin-right: auto;
+
+  section dl {
+    margin-left:50px ;
+    margin-right:50px ;
+    text-align: left;
+  }
+  #Wrapper {
+    background: #77f;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  #photo{
+    display:initial;
     float: none;
+    margin-left:10px ;
+    margin-top:10px ;
   }
-  dt {
-    margin-left: auto;
-    margin-right: auto;
+  #info{
+    display: initial;
   }
-  #wrapper {
+  #infoperso {
+    background-color:#77f; ;
+  }
 
-    /*background: red;*/
-    width:100%;
-
-  }
 }
