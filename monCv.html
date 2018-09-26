@@ -22,11 +22,14 @@
     <h2> Informatique </h2>
   <div id="infoperso">
     <img id="photo" src="src/img/ELGANDARI_Mouhcine.jpg">
-  <div id="info">
-    <br> EL GANDARI Mouhcine
+  <div itemscope itemtype="http://schema.org/Person" id="info">
+     <span itemprop="name">
+      <br> EL GANDARI Mouhcine </span>
     <br> 23 ans
-    <br> <i class="fas fa-map-pin"></i> 2, rue des archives, Brest
-    <br> <i class="fas fa-envelope"></i> email : elquandri2014@gmail.com
+    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> <span itemprop="streetAddress">
+       <i class="fas fa-map-pin"></i>  2, rue des archives, 29200 Brest </span></div>
+    <i class="fas fa-envelope"></i> <span itemprop="email">  email :  elquandri2014@gmail.com </span>
+    <br> <i class="fas fa-phone"></i> <span itemprop="telephone"> (+33)650722829</span>
     <br>Marocain
   </div>
   </div>
@@ -86,10 +89,10 @@
     </article>
   </section>
 <footer>
-  <i class="fab fa-github"><a href="https://github.com/elquandri"> Github </a></i>
-  <i class="fab fa-facebook-square"> <a href="https://www.facebook.com/mouhcine.elquandri"> Facebook</a></i>
-  <i class="fab fa-twitter"><a href="https://twitter.com"> Twitter </a> </i>
-  <i class="fab fa-linkedin-in"><a href="https://linkden.com"> Linkden </a></i>
+  <i class="fab fa-github"><a href="https://github.com/elquandri" itemprop="url"> Github </a></i>
+  <i class="fab fa-facebook-square"> <a href="https://www.facebook.com/mouhcine.elquandri" itemprop="url"> Facebook</a></i>
+  <i class="fab fa-twitter"><a href="https://twitter.com" itemprop="url"> Twitter </a> </i>
+  <i class="fab fa-linkedin-in"><a href="https://linkden.com" itemprop="url"> Linkden </a></i>
 </footer>
 </div>
 </body>
