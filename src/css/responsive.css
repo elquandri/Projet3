@@ -1,55 +1,48 @@
 @media only screen and (max-width: 740px) {
 
-  header img {
+  img {
     margin-left: auto;
     margin-right: auto;
     float: none;
   }
-  #Wrapper {
+ .container {
     background: #f77;
-    width:100%;
+    width:100% ;
+    margin-left: 0px;
   }
   #info{
     display: initial;
   }
-  #infoperso {
-    background-color:#f77; ;
-  }
+
 }
 
 @media only screen and (max-width: 570px) {
-  header img {
+ img {
 
     margin-left: auto;
     margin-right: auto;
     float: none;
   }
 
-  #Wrapper {
+.container {
     background: #7f7;
-    width:100%; }
+    width:100%;
+    margin-left: 0px}
   #info{
     display: initial;
   }
-  #infoperso {
-    background-color:#7f7; ;
-  }
+
 
 }
 
 @media only screen and (max-width: 480px) {
 
-  section dl {
-    margin-left:50px ;
-    margin-right:50px ;
-    text-align: left;
-  }
-  #Wrapper {
+.container {
     background: #77f;
-    margin-left: 5px;
+    margin-left: 0px;
     margin-right: 5px;
   }
-  #photo{
+  img{
     display:initial;
     float: none;
     margin-left:10px ;
@@ -58,8 +51,6 @@
   #info{
     display: initial;
   }
-  #infoperso {
-    background-color:#77f; ;
-  }
 
 }
+

@@ -1,65 +1,181 @@
-#Wrapper{
-  color:#444;
-  background-color: #777;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-html{
-  font-size: 1em ;
-  line-height: 1.4;
-}
-header{
-  margin-left:150px ;
-  font-family: alexa-std, sans-serif;
-}
-header div{
-  font-family: aladin, sans-serif;
-  font-size: 17px;
-}
-section dl {
-  margin-left:300px ;
-  margin-right:300px ;
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-section article dl dt {
-  font-family: alexa-std, sans-serif;
-  font-size: 22px;
-  color:lightskyblue ;
+.container {
+  width: 70%;
+  margin-left: 15%;
+  background-color: aliceblue;
+  padding: 10px;
 }
-section article dl dd {
-  font-family: artifika, serif;
+
+.header {
+  width: 100%;
 }
-#photo{
+
+.left-header {
   float: left;
-  margin-left:100px ;
-  margin-top:10px ;
-  border: 5px solid rgba(0,0,0,0.1);
+  padding: 20px;
 }
-#info{
-  margin-left:250px ;
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-#infoperso{
-  background-color: white;
-  padding-bottom: 10px;
-  margin-right: 100px;
+
+.right-header {
+  float: right;
 }
-footer {
-  margin-top: 50px;
-  margin-left: 200px;
+
+.name {
+  font-weight: bold;
+  font-size: 32px;
 }
-.title{
-  font-family: alexa-std, sans-serif;
+
+.name-subtitle {
+  font-size: 18px;
+  color: #333;
+}
+
+.infos {
+  float: left;
+  margin-right: 10px;
+  list-style: none;
+}
+
+.profile-img {
+  float: right;
+  margin-left: 10px;
+}
+
+.main {
+  padding: 10px 20px;
+}
+
+.section {
+  padding: 5px 10px;
+}
+
+.section-title {
+  color: #08224c;
   font-size: 24px;
-  margin-left:250px ;
-  margin-right:250px ;
-  color: lightblue;
-
-}
-a{
-  font-family: artifika, serif;
+  margin: 10px 5px;
 }
 
-footer{
-  display: initial;
+.section-content {
+  padding: 5px 5px;
 }
 
+.subsection {
+  padding: 0 0 20px 30px;
+}
+
+.subsection-title {
+  color: #113877;
+  font-size: 18px;
+  margin: 0 0 10px 5px;
+}
+
+.subsection-content {
+  padding-left: 35px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.facebook-link {
+  color: #3b5998;
+}
+
+.github-link {
+  color: #333;
+}
+
+.twitter-link {
+  color: #1da1f2;
+}
+
+.linkedin-link {
+  color: #0077b5;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  width: 96%;
+  margin: 20px 2%;
+  color: #dedede;
+  background-color: #dedede;
+}
+
+.details {
+  font-size: 14px;
+  color: #333;
+  margin-left: 20px;
+}
+
+.display {
+  display: inherit;
+}
+
+.hide {
+  display: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin: 2px 0;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 0;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.eval {
+  margin-left: 20px;
+  color: #ffd700;
+}
